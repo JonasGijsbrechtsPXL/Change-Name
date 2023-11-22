@@ -8,7 +8,7 @@ $directoryPath = "C:\Users\jonas\OneDrive - PXL\Bureaublad\Test"
 $files = Get-ChildItem -Path $directoryPath
 
 # Veranderd de gevraagde aantal karakters
-$newPrefix = Read-Host -Prompt "Enter new first 5 chasis numbers:"
+$newPrefix = Read-Host -Prompt "Enter new first 5 characters:"
 
 # Loop through each file and rename it
 foreach ($file in $files) {
