@@ -1,5 +1,5 @@
 #Aantal karakters kan aangepast worden, hoe?
-#pas "$currentName.Length -ge 5" aan & "$currentName.Substring(5)"
+#pas de "5" in "$currentName.Length -ge 5" & "$currentName.Substring(5)" aan.
 
 #Pas pad aan naar juiste map
 $directoryPath = "C:\Users\jonas\OneDrive - PXL\Bureaublad\Test"
